@@ -4,7 +4,11 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=memetroll kernel
+kernel.string=Zenith Kernel
+kernel.compiler=AOSP CLANG 20
+kernel.made=iHSAN
+kernel.version=4.14.336
+message.word=Thank you for installing Zenith Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
