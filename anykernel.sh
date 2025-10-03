@@ -42,6 +42,9 @@ PATCH_VBMETA_FLAG=auto;
 . tools/ak3-core.sh;
 . tools/ak3-custom.sh;
 
+# Backup Boot, DTBO
+backup_main;
+
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
 
