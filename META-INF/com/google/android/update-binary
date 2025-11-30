@@ -548,7 +548,6 @@ fi;
 
 KERNEL_STRING="$(file_getprop anykernel.sh kernel.string)";
 KERNEL_FOR="$(file_getprop anykernel.sh kernel.for)";
-KERNEL_COMPILER="$(file_getprop anykernel.sh kernel.compiler)";
 KERNEL_MADE="$(file_getprop anykernel.sh kernel.made)";
 KERNEL_VERSION="$(file_getprop anykernel.sh kernel.version)";
 BUILD_DATE="$(file_getprop anykernel.sh build.date)";
@@ -556,7 +555,6 @@ MESSAGE_WORD="$(file_getprop anykernel.sh message.word)";
 DEVICE_NAME="$(getprop ro.product.device)";
 ui_print "-- Kernel Name    : $KERNEL_STRING";
 ui_print "-- Kernel Version : $KERNEL_VERSION";
-ui_print "-- Compiler       : $KERNEL_COMPILER";
 ui_print "-- Device         : $DEVICE_NAME";
 ui_print "-- Maintainer     : $KERNEL_MADE";
 ui_print "_________________________________________________" " ";
