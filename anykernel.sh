@@ -5,7 +5,6 @@
 # global properties
 properties() { '
 kernel.string=Zenith Kernel
-kernel.compiler=AOSP CLANG 20
 kernel.made=iHSAN
 kernel.version=4.14.336
 message.word=Thank you for installing Zenith Kernel
