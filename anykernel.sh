@@ -4,10 +4,10 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Zenith Kernel
+kernel.string=Miatoll Kernel
 kernel.made=iHSAN
-kernel.version=4.14.336
-message.word=Thank you for installing Zenith Kernel
+kernel.version=4.14.xxx
+message.word=Thank you for installing Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
